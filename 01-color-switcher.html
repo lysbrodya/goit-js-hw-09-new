@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Switcher</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ffffff;
+      }
+      .controls {
+        background-color: #ffffff;
+        gap: 10px;
+      }
+      .back-link {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        text-decoration: none;
+        color: #000000;
+      }
+      .controls button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+      }
+      .controls {
+        background-color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="back-link" href="./index.html">Go back</a>
+    <!-- <main>
+      <div class="container">
+        <h1 class="main-title">
+          <span class="main-title-gradient">Welcome</span> to page 2
+        </h1>
+      </div>
+    </main> -->
+    <div class="controls">
+      <button type="button" class="start">Start</button>
+      <button type="button" class="stop">Stop</button>
+    </div>
+
+    <script src="./js/01-color-switcher.js"></script>
+  </body>
+</html>
